@@ -1,16 +1,18 @@
 <?php
 $name = $_POST['name'];
-$email = $_POST['email'];
 $phone = $_POST['phone'];
-$call = $_POST['call'];
-$website = $_POST['website'];
-$priority = $_POST['priority'];
-$type = $_POST['type'];
+$email = $_POST['email'];
+$business = $_POST['business'];
+$industry = $_POST['industry'];
 $message = $_POST['message'];
-$formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
+
+$formcontent=$formcontent = "You have received a new message via JMA Marketing.\n\n"."Here are the details:\n\nName: $name\n\nPhone Number: $phone\n\nEmail: $email_address\n\nBusiness Name: $business\n\nIndustry Type: $industry\n\nMessage:\n$message";
 $recipient = "ksamualtolch@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!";
+header("Location: ../../thankyou.html");
 ?>
+
+<!-- echo "Thank You!"; -->
+<!-- " From: $name \n Message: $message"; -->
