@@ -45,6 +45,13 @@ ul {
 
 #showroom {
 	background-color: rgba(255, 230, 230, .5);
+	padding: 0;
+	margin: 0;
+	height: 300px;
+}
+
+.slidshowcontainer {
+	width: max;
 }
 
 textarea {
