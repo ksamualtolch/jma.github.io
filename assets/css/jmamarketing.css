@@ -47,6 +47,8 @@ h2 {
 	margin-top: 100px;
 }
 
+
+
 .btn-contact, .btn-contact:visited {
 	color: rgba(255, 255, 255, 0.9);
 	border: none;
@@ -79,6 +81,27 @@ li {
 ul {
 	padding-right: 30px;
 	padding-top: 0;
+}
+
+
+.style18 { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px;
+  max-width: 90%; 
+} 
+
+.style18:before {
+	display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px;
 }
 
 #showroom {
@@ -140,7 +163,7 @@ form label {
 }
 
 .hospitalitycontainer {
-	margin-top: 80px;
+	margin-top: 20px;
     background-position: center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -178,7 +201,7 @@ form label {
 
 #map {
 	   width: 100%;
-	   height: 300px;
+	   height: 400px;
 	   background-color: grey;
 	   margin-top: 50px;
  }
@@ -217,10 +240,12 @@ of those sections to manage the look and feel of the site. */
 .showroom-section {
     padding-top: 50px;
     text-align: center;
+    margin-bottom: 200px;
 }
 
 .contact-section {
-    padding-top: 50px;
+	margin-top: 0px;
+    padding-top: 80px;
     padding-bottom: 100px;
     text-align: center;
 }
