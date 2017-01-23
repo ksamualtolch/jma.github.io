@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+    
 }
 
 #success {
@@ -177,22 +178,49 @@ form label {
 
 }
 
-.foodservice {
-	float: left;
-	text-align: center;
-	margin: 100px auto;
-}
 
-.hospitalityservice {
+
+
+/*Circle Image Links*/
+
+.hospitalityservice, .foodservice {
+		
+
 	float: left;
 	text-align: center;
 	margin: 100px auto;
+	background: none;
 }
 
 .circleimage {
+	border: 3px solid rgba(119, 119, 119, 1);
 	border-radius: 50%;
+	padding: 5px;
+
+	/*hover transition*/
+
+	-o-transition:.25s;
+	  -ms-transition:.25s;
+	  -moz-transition:.25s;
+	  -webkit-transition:.25s;
+	  /* ...and now for the proper property */
+	  transition:.5s;
 
 }
+
+.circleimage:hover {
+	border: 3px solid rgba(119, 119, 119, .2);
+	opacity: .2;
+}
+
+.circleimage:active {
+	border: 3px solid rgba(119, 119, 119, .4);
+	opacity: .5;
+}
+
+/*End Circle Image Links*/
+
+
 
 .pink {
     	border: 2px solid red;
