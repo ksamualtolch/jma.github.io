@@ -15,6 +15,9 @@
    	
    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
+   	<!-- Google Fonts -->
+   	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
    	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script
 	src="https://code.jquery.com/jquery-3.1.1.js"
@@ -31,7 +34,7 @@
   jQuery(function ($) {
     $("#slider1").responsiveSlides({
         maxwidth: 2500,
-        speed: 500
+        speed: 750
     });
 });
   </script>
@@ -97,7 +100,7 @@
 			    	</div>
 		    	</div>
 		    		<p class="slogan">Manufacturer Representatives for the Restaurant and Hospitality Industry</p>
-		    		<button class="btn btn-success btn-lg">Make An Appointment</button>
+		    		<a class="btn btn-lg btn-contact page-scroll" href="#contact" role="button">Make An Appointment</a>
     			</div>
     	<!-- </div> -->
     	</div>
@@ -123,6 +126,7 @@
 	    	</div>
     </div>
 
+<hr>
 <!-- End Foodservice -->   
 
 <!-- Hospitality -->
@@ -146,8 +150,9 @@
 <!-- Showroom -->
 <section id="showroom" class="showroom-section">
 	<div class="container">
+	<h2>Our Showroom</h2>
 		<div class="row">
-		<div class="slideshowcontainer col-xs-12 pink">
+		<div class="slideshowcontainer col-xs-12">
 		<ul class="rslides" id="slider1">
 	      <li><img src="images/1.jpg" alt=""></li>
 	      <li><img src="images/2.jpg" alt=""></li>
@@ -165,11 +170,10 @@
 	
 <section id="contact" class="contact-section">
 	<div class="container">
-		<div class="row pink">
+		<div class="row">
 
-				<!-- Map -->
-
-				<div class="col-md-8 pink">
+<!-- Map -->
+				<div class="col-md-8">
 					<div class="row">
 						<div class="col-md-12">
 							<div id="map"></div>
@@ -183,7 +187,7 @@
 
 				<!-- End Map -->
 
-			<div class="col-md-4 pink">
+			<div class="col-md-4">
 				<div>
 					<h2>Contact Us</h2>
 				</div>
@@ -194,13 +198,13 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="name">Name</label>  
 							  	<div class="col-sm-12">
-							  	<input id="name" name="name" type="text" placeholder="" class="form-control input-md" data-validation-required-message="Please enter Your Name.">  
+							  	<input id="name" name="name" type="text" placeholder="" class="form-control input-md">  
 							  </div>
 							</div>
 
 							<!-- Phone Number input-->
 							<div class="form-group">
-							  <label class="col-md-4 control-label" for="phone">Phone Number</label>  
+							  <label class="col-md-4 control-label" for="phone">   Phone Number</label>  
 							  <div class="col-sm-12">
 							  <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md">   
 							  </div>

@@ -14,21 +14,59 @@ html {
 }
 
 p {
-	color: white;
+	font-family: Garamound;
+	color: #777;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 20px;
 	text-transform: uppercase;
+
 }
 
+.control-label {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 5px;
+}
+
+h2 {
+	color: #696969;
+	font-family: Garamound;
+	font-weight: bold;
+}
 .slogan {
-	background-color: rgba(234, 143, 156, 0.4);
+	color: #777;
+	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 10%;
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20px;
 }
 
 .logo {
 	float: none;
 	opacity: 0.6;
+	margin-top: 100px;
 }
+
+.btn-contact, .btn-contact:visited {
+	color: rgba(255, 255, 255, 0.9);
+	border: none;
+	margin-top: 75px;
+	background-color: rgba(155, 198, 207, .75);
+}
+
+
+.btn-contact:hover {
+	color: white;
+	border: none;
+	background-color: rgba(155, 198, 207, 1);
+}
+
+.btn-contact:active {
+	color: white;
+	border: none;
+	background-color: rgba(90, 161, 175, 1);
+}
+
 
 h2 {
 	text-align: center;
@@ -44,10 +82,7 @@ ul {
 }
 
 #showroom {
-	background-color: rgba(255, 230, 230, .5);
-	padding: 0;
-	margin: 0;
-	height: 300px;
+	height: 550px;
 }
 
 .slidshowcontainer {
@@ -79,7 +114,7 @@ form label {
 
 
 .jumbocontainer {
-	margin-top: 60px;
+	margin-top: 0px;
 	background-image: url("../img/diningroom.png");
     background-position: center center;
     -moz-background-size: cover;
@@ -95,7 +130,7 @@ form label {
 	margin: 0px auto;
 	text-align: center;
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	background-color: rgba(255, 255, 255, 0.5);
 
 }
@@ -106,7 +141,6 @@ form label {
 
 .hospitalitycontainer {
 	margin-top: 80px;
-	background-image: url("../img/curtain.png");
     background-position: center center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -117,6 +151,7 @@ form label {
 
 #showroom {
 	padding-bottom: 0px;
+
 }
 
 .foodservice {
@@ -145,7 +180,8 @@ form label {
 	   width: 100%;
 	   height: 300px;
 	   background-color: grey;
- 		}
+	   margin-top: 50px;
+ }
 
 .thumbnail {
 	border-radius: 50%;
@@ -154,6 +190,8 @@ form label {
 
 @media(min-width:767px) {
     .navbar {
+    	background-color: rgba(177, 232, 236, .75);
+    	border: none;
         padding: 10px 0;
         -webkit-transition: background 1s ease-in-out,padding 1s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -164,6 +202,7 @@ form label {
         padding: 2px;
     }
 }
+
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -184,6 +223,10 @@ of those sections to manage the look and feel of the site. */
     padding-top: 50px;
     padding-bottom: 100px;
     text-align: center;
+}
+
+nav .page-scroll  {
+	background: none;
 }
 
 
