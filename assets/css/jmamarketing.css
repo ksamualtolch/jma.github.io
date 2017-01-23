@@ -49,12 +49,17 @@ h2 {
 }
 
 
-
 .btn-contact, .btn-contact:visited {
 	color: rgba(255, 255, 255, 0.9);
 	border: none;
 	margin-top: 75px;
 	background-color: rgba(155, 198, 207, .75);
+		-o-transition:.25s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	/* ...and now for the proper property */
+	transition:.5s;
 }
 
 
@@ -181,16 +186,17 @@ form label {
 
 
 
+
+
 /*Circle Image Links*/
 
 .hospitalityservice, .foodservice {
-		
-
 	float: left;
 	text-align: center;
 	margin: 100px auto;
 	background: none;
 }
+
 
 .circleimage {
 	border: 3px solid rgba(119, 119, 119, 1);
@@ -200,25 +206,28 @@ form label {
 	/*hover transition*/
 
 	-o-transition:.25s;
-	  -ms-transition:.25s;
-	  -moz-transition:.25s;
-	  -webkit-transition:.25s;
-	  /* ...and now for the proper property */
-	  transition:.5s;
+	-ms-transition:.25s;
+	-moz-transition:.25s;
+	-webkit-transition:.25s;
+	/* ...and now for the proper property */
+	transition:.5s;
 
 }
 
 .circleimage:hover {
-	border: 3px solid rgba(119, 119, 119, .2);
-	opacity: .2;
-}
-
-.circleimage:active {
-	border: 3px solid rgba(119, 119, 119, .4);
+	border: 3px solid rgba(177, 232, 236, .1);
 	opacity: .5;
 }
 
+.circleimage:active {
+	border: 3px solid rgba(41, 160, 168, 1);
+	opacity: .3;
+}
+
 /*End Circle Image Links*/
+
+
+
 
 
 
@@ -283,40 +292,71 @@ nav .page-scroll  {
 }
 
 
+
+
 /*footer*/
 
 .footer {
 	width:100%; 
 	float:left; 
-	background: rgb(178,147,18); 
-	height:200px;
+	background: rgb(178,147,18);
+	margin-bottom: 0;
+	background-color: rgba(201, 230, 232, .5);
 }
 
 .footerlogo {
 	padding: 20px;
+	opacity: .5;
 
 }
 
 .pearly {
+	margin: 0;
+	padding: 5px;
 	text-align: center;
 	width: 100%;
-	background: rgb(12,159,173);
+	background: rgba(201, 230, 232, 1);
+	font-size: 12px;
+	text-transform: none;
 }
+
+.footerlinks {
+	padding-top: 20px;
+}
+
+.footerlinks li {
+	color: white;
+	font-size: 16px;
+}
+
+.statement {
+	padding-top: 20px;
+}
+
 /* footer social icons */
+
 
 ul.social-network {
 	text-align: center;
 	float: none;
 	list-style: none;
 	padding: 0;
+	margin-top: 10px;
 }
 ul.social-network li {
 	display: inline;
-	margin: 0 5px;
 }
 
+.icoPhone {
+	float: none;
+	margin-right: 20px;
+}
 
-/* footer social icons */
+.icoEnvelope {
+	float: none;
+	margin-right: 20px;
+
+}
 
 a.icoPhone:hover {
 	background-color:#3B5998;
@@ -345,6 +385,22 @@ a.socialIcon:hover, .socialHoverClass, a.icoPhone:hover, a.icoEnvelope:hover {
 	color:#44BCDD;
 }
 
+.contactButton li {
+	list-style: none;
+}
+
+.contactButton {
+	padding-left: 0;
+	float: left;
+	}
+
+.socialborder {
+	border: 2px solid white;
+    padding: 0;
+    margin: 0;
+
+   	}
+}
 .contactButton li a {
 	-moz-border-radius:20%;
 	-webkit-border-radius:20%;
@@ -366,6 +422,7 @@ a.socialIcon:hover, .socialHoverClass, a.icoPhone:hover, a.icoEnvelope:hover {
 	width: 50px;
 	height: 50px;
 	font-size:20px;
+	margin: 7px;
 }
 .social-circle li i {
 	margin:0;
@@ -394,6 +451,5 @@ a.socialIcon:hover, .socialHoverClass, a.icoPhone:hover, a.icoEnvelope:hover {
 	transition: all 0.8s;
 }
 
-a {
- background-color: #D3D3D3;   
-}
+
+/*End Footer*/
