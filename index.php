@@ -207,7 +207,8 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="name">Name</label>  
 							  	<div class="col-sm-12">
-							  	<input id="name" name="name" type="text" placeholder="" class="form-control input-md">  
+							  	<input id="name" name="name" type="text" placeholder="" class="form-control input-md">
+							  	<span class="error"><?= $name_error ?></span>  
 							  </div>
 							</div>
 
@@ -215,7 +216,8 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="phone">   Phone Number</label>  
 							  <div class="col-sm-12">
-							  <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md">   
+							  <input id="phone" name="phone" type="text" placeholder="" class="form-control input-md">
+							  <span class="error"><?= $phone_error ?></span>   
 							  </div>
 							</div>	
 
@@ -224,6 +226,7 @@
 							  <label class="col-md-4 control-label" for="email">Email Address</label>  
 							  <div class="col-sm-12">
 							  <input id="email" name="email" type="text" placeholder="" class="form-control input-md" data-validation-required-message="Please enter your email address.">
+							  <span class="error"><?= $email_error ?></span>
 							  </div>
 							</div>
 
@@ -231,7 +234,8 @@
 							<div class="form-group">
 							  <label class="col-md-4 control-label" for="business">Business Name</label>  
 							  <div class="col-sm-12">
-							  <input id="business" name="business" type="text" placeholder="" class="form-control input-md"> 
+							  <input id="business" name="business" type="text" placeholder="" class="form-control input-md">
+							  <span class="error"><?= $business_error ?></span> 
 							  </div>
 							</div>
 
