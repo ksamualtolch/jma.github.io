@@ -201,7 +201,7 @@
 					<h2>Contact Us</h2>
 				</div>
 						<?php include("assets/js/lib/mail.php"); ?>
-						<form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+						<form action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="POST">
 							
 							<!-- Name input-->
 							<div class="form-group">
