@@ -68,6 +68,7 @@ nav .page-scroll  {
 		    padding-top: 50px;
 		    text-align: center;
 		    margin-bottom: 200px;
+		    border: 1px solid red;
 		}
 
 		.contact-section {
@@ -75,6 +76,7 @@ nav .page-scroll  {
 		    padding-top: 80px;
 		    padding-bottom: 100px;
 		    text-align: center;
+		    border: 1px solid red;
 		}
 
 		/* End Scrollspy */
@@ -318,7 +320,7 @@ nav .page-scroll  {
 .hospitalityservice, .foodservice {
 	float: left;
 	text-align: center;
-	margin: 100px auto;
+	margin: 40px auto;
 	background: none;
 }
 
@@ -372,23 +374,30 @@ nav .page-scroll  {
 /*Contact Form*/
 
 
+textarea:invalid, input:invalid {
+  border: 3px solid rgba(201, 230, 232, .9);
+}
+
+textarea:valid, input:valid {
+  border: 3px solid rgba(77, 172, 179, .9);
+}
+
 .control-label {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
 	margin-bottom: 5px;
+	margin-top: 15px;
+	color: #777;
+	text-align: left;
+	font-size: 12px;
 }
 
 textarea {
 	margin-bottom: 20px;
 }
 
-label {
-	font-weight: normal;
-	margin-bottom: 2px;
-	margin-top: 15px;
-}
-
-form label {
-	font-size: 12px;
+.form-control {
+	border: 3px solid rgba(201, 230, 232, .9);	
 }
 
 /*End Contact Form*/
@@ -403,6 +412,7 @@ form label {
 	   height: 400px;
 	   background-color: grey;
 	   margin-top: 50px;
+	   border: 1px solid red;
  }
 
 /*End Google Map*/
