@@ -447,7 +447,12 @@ textarea {
 }
 
 .thumbnail {
+	margin: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumbnail img {
+	padding:  50px;
 }
 
 .about p {
@@ -462,11 +467,6 @@ textarea {
 	margin-top: 150px;
 }
 
-.profile-photo {
-	/*padding: 70px;*/
-
-}
-
 .titleBlock {
 
 }
@@ -478,20 +478,35 @@ textarea {
 	border: 3px solid rgba(201, 230, 232, .9);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.titleBlock a:active {
+	float: right;
+	margin: 10px;
+	margin-top: 5px;
+	border: 3px solid rgba(201, 230, 232, .9);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+
 .name {
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-align: left;
 	font-size: 3em;
-	padding-top: 5px;
-	margin: 0;
 	text-transform: none;
+	line-height: .9;
 
 }
 
 .title {
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 2px;
 	padding: 0px;
-	margin: 0;
+
 }
 
 .nameAndTitle {
