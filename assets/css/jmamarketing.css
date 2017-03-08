@@ -439,6 +439,15 @@ textarea {
 .staff {
 	margin: 0 auto;
 	text-align: center;
+	margin-bottom: 350px;
+}
+
+.staff h2 {
+	margin-bottom: 50px;
+}
+
+.thumbnail {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about p {
@@ -446,10 +455,53 @@ textarea {
 	text-align: center;
 	margin: 20px auto;
 	font-size: 1.2em;
+	text-transform: none;
 }
 
 .about h2 {
 	margin-top: 150px;
+}
+
+.profile-photo {
+	/*padding: 70px;*/
+
+}
+
+.titleBlock {
+
+}
+
+.titleBlock a {
+	float: right;
+	margin: 10px;
+	margin-top: 5px;
+	border: 3px solid rgba(201, 230, 232, .9);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.name {
+	font-size: 3em;
+	padding-top: 5px;
+	margin: 0;
+	text-transform: none;
+
+}
+
+.title {
+	padding: 0px;
+	margin: 0;
+}
+
+.nameAndTitle {
+	width: 75%;
+	float: left;
+}
+
+.profile-description {
+	font-size: 12px;
+	text-transform: none;
 }
 /* End About */
 

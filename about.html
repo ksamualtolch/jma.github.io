@@ -24,12 +24,25 @@
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
 
-    
-    </style>
+    <!-- responsive slideshow -->
 
-  </head>
+    <link rel="stylesheet" href="assets/css/responsiveslides.css">
+    <script src="assets/js/lib/responsiveslides.min.js"></script>
+
+    <script>
+    // You can also use "$(window).load(function() {"
+  jQuery(function ($) {
+    $("#slider1").responsiveSlides({
+        maxwidth: 2500,
+        speed: 750
+    });
+});
+    </script>
+
+    </style>
+</head>
  
- <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -64,10 +77,10 @@
                         <a class="page-scroll" href="#gallery">Gallery</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#showroom">Showroom</a>
+                        <a class="page-scroll" href="#showroom">Showroom</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="index.html#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -76,85 +89,75 @@
         <!-- /.container -->
     </nav>
 
-
-<div class="about">
+<section class="about">
 <h2>JMA Marketing</h2>
     <P>John Manson & Associates represents a number of fine manufacturers in both the Hospitality and Contract Furnishings Industries. We were incorporated in February 2004, representing product lines in Illinois, Wisconsin and Northwest Indiana. Our 2500 square foot showroom in Chicago was opened in December 2004. We have had some of Chicago's and the Nation's finest restaurants and hotels select dinnerware, flatware, furniture and accessories from among our offerings on display.</P>
     <p>Our goal has always been to represent the finest manufacturers available. Companies which have both unique products and a reputation for outstanding quality are of utmost importance to us, as well as the sales representatives and specifiers who sell our product lines. We work closely with the ultimate end-users of our product lines to ensure that they receive the very best service, quality, and follow through on their orders. We pride ourselves on all aspects of customer service, realizing that our own success depends on the level of service which we provide. We maintain a very high sense of personal values with a heavy focus on honesty, integrity and decency. </p>
-</div>
-
-
-
-<div class="container staff">
-  
-          <p class="staff">JMA Marketing Staff</p>
-          
-          <div class="row">
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-          
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-
-            <div class="profile-photo col-md-4">
-                  <div class="thumbnail">
-                    <img src="images/profile.jpg">
-                  </div>
-                <p class="profile-description">IMAGE</p>
-            </div>
-          </div>
-  </div>
-
-<!-- About Us -->
-
-    <div class="container foodservicecontainer">
-            <div class="row">   
-            <h2>About Us
-            </h2>
-              <a class="foodservice col-xs-12 col-md-4"><img class="circleimage" src="assets/img/generic2.png">
-              <p>table-top</p>
-              </a>
-              <a class="foodservice col-xs-12 col-md-4"><img class="circleimage" src="assets/img/generic2.png">
-              <p>seating</p>
-              </a>
-              <a class="foodservice col-xs-12 col-md-4"><img class="circleimage" src="assets/img/generic2.png">
-              <p>cookware & accessories</p>
-              </a>
-            </div>
-    </div>
-
+</section>  
+    
 <hr class="style18">
 
-<!-- End Foodservice -->   
+<section class="container staff">
+    <h2>Our Staff</h2>
+          <div class="row" style="display:flex; flex-wrap: wrap;">
+            <div class="profile-photo col-md-6">
+                <div class="titleBlock">
+                    <div class="nameAndTitle">
+                        <p class="name">John Manson</p>
+                        <p class="title">Principal</p>
+                    </div>
+                    <a href="mailto:someone@example.com?Subject=A%20Direct%20Message%20From%20JMA.COM"><i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i></a>
+                </div>
+            <div class="thumbnail">
+                    <img src="images/profile.jpg">    
+                <p class="profile-description">John has been in the industry since 1986. John graduated with a marketing Degree from the University Of Illinois-Chicago in 1982. He started his career as a Sales Representative with Edward Don & Company in North Riverside, IL covering the Far Western Suburbs of Chicago. After 8 years with Edward Don, John became a Foodservice Supplies and Equipment Specialist with Sysco-Chicago, eventually focusing on the downtown Chicago market. In 1996, he became a Manufacturers Representative with Lawrence Sullivan & Associates, becoming their Sales Manager, and then in 1998, a partner. Sullivan-Manson & Associates represented many product lines in the Illinois/Wisconsin market including Carlisle, Libbey Glass, World Tableware, Syracuse China, Tomlinson, Prince Castle, Bon Chef, Corning, Dinex, L&B Furniture among others.  In early 2004, John began his own Manufacturers' Rep Group, John Manson & Associates. </p>
+                </div>
+            </div>
+            <div class="profile-photo col-md-6">
+                <div class="titleBlock">
+                    <div class="nameAndTitle">
+                        <p class="name">John Manson</p>
+                        <p class="title">Principal</p>
+                    </div>
+                    <a href=""><i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i></a>
+                </div>
+            <div class="thumbnail">
+                    <img src="images/profile.jpg">    
+                <p class="profile-description">John has been in the industry since 1986. John graduated with a marketing Degree from the University Of Illinois-Chicago in 1982. He started his career as a Sales Representative with Edward Don & Company in North Riverside, IL covering the Far Western Suburbs of Chicago. After 8 years with Edward Don, John became a Foodservice Supplies and Equipment Specialist with Sysco-Chicago, eventually focusing on the downtown Chicago market. In 1996, he became a Manufacturers Representative with Lawrence Sullivan & Associates, becoming their Sales Manager, and then in 1998, a partner. Sullivan-Manson & Associates represented many product lines in the Illinois/Wisconsin market including Carlisle, Libbey Glass, World Tableware, Syracuse China, Tomlinson, Prince Castle, Bon Chef, Corning, Dinex, L&B Furniture among others.  In early 2004, John began his own Manufacturers' Rep Group, John Manson & Associates. </p>
+                </div>
+            </div>
+            <div class="profile-photo col-md-6">
+                <div class="titleBlock">
+                    <div class="nameAndTitle">
+                        <p class="name">John Manson</p>
+                        <p class="title">Principal</p>
+                    </div>
+                    <a href=""><i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i></a>
+                </div>
+            <div class="thumbnail">
+                    <img src="images/profile.jpg">    
+                <p class="profile-description">John has been in the industry since 1986. John graduated with a marketing Degree from the University Of Illinois-Chicago in 1982. He started his career as a Sales Representative with Edward Don & Company in North Riverside, IL covering the Far Western Suburbs of Chicago. After 8 years with Edward Don, John became a Foodservice Supplies and Equipment Specialist with Sysco-Chicago, eventually focusing on the downtown Chicago market. In 1996, he became a Manufacturers Representative with Lawrence Sullivan & Associates, becoming their Sales Manager, and then in 1998, a partner. Sullivan-Manson & Associates represented many product lines in the Illinois/Wisconsin market including Carlisle, Libbey Glass, World Tableware, Syracuse China, Tomlinson, Prince Castle, Bon Chef, Corning, Dinex, L&B Furniture among others.  In early 2004, John began his own Manufacturers' Rep Group, John Manson & Associates. </p>
+                </div>
+            </div>
+            <div class="profile-photo col-md-6">
+                <div class="titleBlock">
+                    <div class="nameAndTitle">
+                        <p class="name">John Manson</p>
+                        <p class="title">Principal</p>
+                    </div>
+                    <a href=""><i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i></a>
+                </div>
+            <div class="thumbnail">
+                    <img src="images/profile.jpg">    
+                <p class="profile-description">John has been in the industry since 1986. John graduated with a marketing Degree from the University Of Illinois-Chicago in 1982. He started his career as a Sales Representative with Edward Don & Company in North Riverside, IL covering the Far Western Suburbs of Chicago. After 8 years with Edward Don, John became a Foodservice Supplies and Equipment Specialist with Sysco-Chicago, eventually focusing on the downtown Chicago market. In 1996, he became a Manufacturers Representative with Lawrence Sullivan & Associates, becoming their Sales Manager, and then in 1998, a partner. Sullivan-Manson & Associates represented many product lines in the Illinois/Wisconsin market including Carlisle, Libbey Glass, World Tableware, Syracuse China, Tomlinson, Prince Castle, Bon Chef, Corning, Dinex, L&B Furniture among others.  In early 2004, John began his own Manufacturers' Rep Group, John Manson & Associates. </p>
+                </div>
+            </div>
+
+          </div>
+</section>   
+
+
+<!-- End Contact Form  -->  
 
 <!-- Footer -->
 
@@ -191,6 +194,12 @@
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
 
+    <!--Google Map -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDTvBPdQKLExJ7zQhqrS-Ij5V3yHTgfWY&callback=initMap">
+    </script>
+
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
  
@@ -199,6 +208,7 @@
 
 
  
-  </body>
+</body>
 
 </html>
+
