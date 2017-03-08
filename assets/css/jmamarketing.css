@@ -1,17 +1,15 @@
+	
 
 body {
     width: 100%;
     height: 100%;
-    position: relative;
-    
+    position: relative;   
 }
-
 
 html {
     width: 100%;
     height: 100%;
 }
-
 
 p {
 	font-family: Garamound;
@@ -21,9 +19,7 @@ p {
 	text-transform: uppercase;
 }
 
-
-
-h2 {
+h2,h3,h4 {
 	color: #696969;
 	font-family: Garamound;
 	font-weight: bold;
@@ -31,7 +27,6 @@ h2 {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
-
 
 li {
 	font-size: 1.5em;
@@ -42,10 +37,7 @@ ul {
 	padding-top: 0;
 }
 
-
-
 /*Navigation*/
-
 
 nav .page-scroll  {
 	background: none;
@@ -59,7 +51,6 @@ nav .page-scroll  {
 	/* Scrollspy - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 	The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 	of those sections to manage the look and feel of the site. */
-
 
 		.about-section {
 		    height: 100%;
@@ -78,12 +69,9 @@ nav .page-scroll  {
 		    padding-bottom: 100px;
 		    text-align: center;
 		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-
 		}
 
 		/* End Scrollspy */
-
-
 
 @media(min-width:767px) {
     .navbar {
@@ -99,7 +87,6 @@ nav .page-scroll  {
         padding: 2px;
     }
 }
-
 
 /*End Navigation*/
 
@@ -119,7 +106,6 @@ nav .page-scroll  {
     width: 100%;
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .jumbotron {
@@ -129,16 +115,16 @@ nav .page-scroll  {
 	width: 100%;
 	height: 700px;
 	background-color: rgba(255, 255, 255, 0.5);
-
 }
 
 .slogan {
 	color: #777;
 	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10%;
-	width: 75%;
+	width: 65%;
 	margin: 0 auto;
 	margin-top: 20px;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .logo {
@@ -146,7 +132,6 @@ nav .page-scroll  {
 	opacity: 0.6;
 	margin-top: 100px;
 }
-
 
 .btn-contact, .btn-contact:visited {
 	color: rgba(255, 255, 255, 0.9);
@@ -161,7 +146,6 @@ nav .page-scroll  {
 	transition:.5s;
 }
 
-
 .btn-contact:hover {
 	color: white;
 	border: none;
@@ -173,7 +157,6 @@ nav .page-scroll  {
 	border: none;
 	background-color: rgba(90, 161, 175, 1);
 }
-
 
 /*End Jumbotron*/
 
@@ -204,9 +187,6 @@ nav .page-scroll  {
 
 /* End <hr> styling */
 
-
-
-
 /*Font Awesome*/
 
 .fa {
@@ -216,81 +196,6 @@ nav .page-scroll  {
 /*End Font Awesome*/
 
 
-
-
-
-/*Jumbotron*/
-
-.jumbocontainer {
-	margin-top: 0px;
-	background-image: url("../img/diningroom.png");
-    background-position: center center;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    padding: 0;
-}
-
-.jumbotron {
-	padding-top: 100px;
-	margin: 0px auto;
-	text-align: center;
-	width: 100%;
-	height: 700px;
-	background-color: rgba(255, 255, 255, 0.5);
-
-}
-
-.slogan {
-	color: #777;
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10%;
-	width: 75%;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-.logo {
-	float: none;
-	opacity: 0.6;
-	margin-top: 100px;
-}
-
-
-.btn-contact, .btn-contact:visited {
-	color: rgba(255, 255, 255, 0.9);
-	border: none;
-	margin-top: 75px;
-	background-color: rgba(155, 198, 207, .75);
-		-o-transition:.25s;
-	-ms-transition:.25s;
-	-moz-transition:.25s;
-	-webkit-transition:.25s;
-	/* ...and now for the proper property */
-	transition:.5s;
-}
-
-
-.btn-contact:hover {
-	color: white;
-	border: none;
-	background-color: rgba(155, 198, 207, 1);
-}
-
-.btn-contact:active {
-	color: white;
-	border: none;
-	background-color: rgba(90, 161, 175, 1);
-}
-
-
-/*End Jumbotron*/
-
-
-
-
 /*Foodservice*/
 
 .foodservicecontainer {
@@ -298,17 +203,14 @@ nav .page-scroll  {
    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
    	margin-bottom: 50px;
    	border: 3px solid rgba(201, 230, 232, .9);
-
 }
 
 /*End Foodservice*/
 
 
-
-
 /*Hospitality*/
 
-.hospitalitycontainer {
+.hospitality {
 	margin-top: 20px;
     background-position: center center;
     -moz-background-size: cover;
@@ -323,9 +225,6 @@ nav .page-scroll  {
 
 /*End Hospitality*/
 
-
-
-
 /*Circle Image Links*/
 
 .hospitalityservice, .foodservice {
@@ -334,7 +233,6 @@ nav .page-scroll  {
 	margin: 40px auto;
 	background: none;
 }
-
 
 .circleimage {
 	border: 3px solid rgba(119, 119, 119, 1);
@@ -345,7 +243,6 @@ nav .page-scroll  {
 	-moz-transition:.25s;
 	-webkit-transition:.25s;
 	transition:.5s;
-
 }
 
 .circleimage:hover {
@@ -361,18 +258,13 @@ nav .page-scroll  {
 /*End Circle Image Links*/
 
 
-
-
 /*Slideshow*/
-
 
 #showroom {
 	padding-bottom: 0px;
 	height: 750px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	border: 3px solid rgba(201, 230, 232, .9);
-
-
 }
 
 .slidshowcontainer {
@@ -380,14 +272,9 @@ nav .page-scroll  {
 	margin-top: 20px;
 }
 
-
 /*Slideshow*/
 
-
-
-
 /*Contact Form*/
-
 
 textarea:invalid, input:invalid {
   border: 3px solid rgba(201, 230, 232, .9);
@@ -417,9 +304,6 @@ textarea {
 
 /*End Contact Form*/
 
-
-
-
 /*Google Map*/
 
 #map {
@@ -427,12 +311,33 @@ textarea {
 	   height: 400px;
 	   background-color: grey;
 	   margin-top: 50px;
-	   border: 1px solid red;
-	   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
  }
 
+ .mapBorder {
+		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
 /*End Google Map*/
+
+/* Contact Us */
+
+.contactUs a {
+	float: right;
+	margin: 15px;
+	margin-top: 15px;
+	border: 3px solid rgba(201, 230, 232, .9);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contactUs a:active {
+	border: 3px solid rgba(201, 230, 232, .9);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* End Contact Us */
 
 /* About */
 
@@ -447,7 +352,6 @@ textarea {
 }
 
 .thumbnail {
-	margin: 20px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -456,7 +360,7 @@ textarea {
 }
 
 .about p {
-	width: 80%;
+	width: 60%;
 	text-align: center;
 	margin: 20px auto;
 	font-size: 1.2em;
@@ -473,7 +377,7 @@ textarea {
 
 .titleBlock a {
 	float: right;
-	margin: 10px;
+	margin: 1px;
 	margin-top: 5px;
 	border: 3px solid rgba(201, 230, 232, .9);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -481,10 +385,6 @@ textarea {
 }
 
 .titleBlock a:active {
-	float: right;
-	margin: 10px;
-	margin-top: 5px;
-	border: 3px solid rgba(201, 230, 232, .9);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -552,11 +452,13 @@ textarea {
 
 .footerlinks li {
 	color: white;
-	font-size: 16px;
+	font-size: 20px;
+	padding-left: 35px;
+	list-style: none;
 }
 
 .statement {
-	padding-top: 20px;
+	padding: 20px;
 }
 
 	/* footer social icons */
@@ -567,29 +469,22 @@ textarea {
 		float: none;
 		list-style: none;
 		padding: 0;
-		margin-top: 10px;
+		margin-top: 20px;
 	}
 	ul.social-network li {
 		display: inline;
 	}
 
-	.icoPhone {
-		float: none;
-		margin-right: 20px;
-	}
-
-	.icoEnvelope {
-		float: none;
-		margin-right: 20px;
-
-	}
-
-	a.icoPhone:hover {
+	.social-network a.icoFacebook {
 		background-color:#3B5998;
 	}
 
-	a.icoEnvelope:hover {
-		background-color:#3B5998;
+	.social-network a.icoGoogle {
+		background-color:#BD3518;
+	}
+
+	.social-network a.icoLinkedin {
+		background-color:#007bb7;
 	}
 
 	.social-network a.icoFacebook:hover {
@@ -677,21 +572,7 @@ textarea {
 		transition: all 0.8s;
 	}
 
-
 /*End Footer*/
-
-
-
-
-/*Border for locating and Hilighting Elements*/
-
-
-.pink {
-    	border: 2px solid red;
-    	padding:0px;
-    	}
-
-/* End Border for locating and Hilighting Elements*/
 
 
 /* Thank you */
@@ -704,4 +585,8 @@ textarea {
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	background: none;
+}
+
+.pink {
+	border: 1px solid red;
 }
