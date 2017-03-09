@@ -490,8 +490,8 @@ textarea {
 }
 
 .footerlinks {
-	border: 1px solid red;
-	text-align: center;
+/*	border: 1px solid red;
+*/	text-align: center;
 	/*padding: 20px;*/
 	margin: 20px;
 }
