@@ -103,6 +103,7 @@ nav .page-scroll  {
     background-size: cover;
     width: 100%;
     padding: 0;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -121,7 +122,8 @@ nav .page-scroll  {
 	width: 65%;
 	margin: 0 auto;
 	margin-top: 20px;
-	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -198,10 +200,11 @@ nav .page-scroll  {
 
 .foodservicecontainer {
     width: 100%;
-   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
    	margin-bottom: 50px;
    	border-top:3px solid rgba(201, 230, 232, .9);
    	border-bottom:3px solid rgba(201, 230, 232, .9);
+   	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*End Foodservice*/
@@ -217,10 +220,11 @@ nav .page-scroll  {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 50px;
     border-top:3px solid rgba(201, 230, 232, .9);
    	border-bottom:3px solid rgba(201, 230, 232, .9);
+   	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*End Hospitality*/
@@ -263,10 +267,11 @@ nav .page-scroll  {
 #showroom {
 	padding-bottom: 0px;
 	height: 750px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	border-top:3px solid rgba(201, 230, 232, .9);
    	border-bottom:3px solid rgba(201, 230, 232, .9);
 	text-align: center;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .slidshowcontainer {
@@ -280,6 +285,7 @@ nav .page-scroll  {
 
 #contact {
 	border-top: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -324,11 +330,13 @@ textarea {
 	   background-color: grey;
 	   margin-top: 50px;
 	   margin-bottom: 10px;
+	   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
  }
 
 .mapBorder {
+		-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
@@ -360,11 +368,13 @@ textarea {
 	margin: 15px;
 	margin-top: 15px;
 	border: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contactUs a:active {
 	border: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -396,6 +406,7 @@ textarea {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	border: 3px solid rgba(201, 230, 232, .9);;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -411,11 +422,13 @@ textarea {
 	margin: 15px;
 	margin-top: 5px;
 	border: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .titleBlock+a:active {
 	border: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -615,8 +628,9 @@ textarea {
 	width: 75%;
 	padding-bottom: 10px;
 	text-align: center;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 	background: none;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pink {
