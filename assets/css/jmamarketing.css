@@ -67,8 +67,6 @@ nav .page-scroll  {
 			margin-top: 0px;
 		    padding-top: 80px;
 		    padding-bottom: 100px;
-		    text-align: center;
-		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 
 		/* End Scrollspy */
@@ -202,7 +200,8 @@ nav .page-scroll  {
     width: 100%;
    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
    	margin-bottom: 50px;
-   	border: 3px solid rgba(201, 230, 232, .9);
+   	border-top:3px solid rgba(201, 230, 232, .9);
+   	border-bottom:3px solid rgba(201, 230, 232, .9);
 }
 
 /*End Foodservice*/
@@ -220,7 +219,8 @@ nav .page-scroll  {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 50px;
-    border: 3px solid rgba(201, 230, 232, .9);
+    border-top:3px solid rgba(201, 230, 232, .9);
+   	border-bottom:3px solid rgba(201, 230, 232, .9);
 }
 
 /*End Hospitality*/
@@ -264,7 +264,9 @@ nav .page-scroll  {
 	padding-bottom: 0px;
 	height: 750px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
-	border: 3px solid rgba(201, 230, 232, .9);
+	border-top:3px solid rgba(201, 230, 232, .9);
+   	border-bottom:3px solid rgba(201, 230, 232, .9);
+	text-align: center;
 }
 
 .slidshowcontainer {
@@ -275,6 +277,11 @@ nav .page-scroll  {
 /*Slideshow*/
 
 /*Contact Form*/
+
+#contact {
+	border-top: 3px solid rgba(201, 230, 232, .9);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 textarea:invalid, input:invalid {
   border: 3px solid rgba(201, 230, 232, .9);
@@ -302,6 +309,11 @@ textarea {
 	border: 3px solid rgba(201, 230, 232, .9);	
 }
 
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+
 /*End Contact Form*/
 
 /*Google Map*/
@@ -311,13 +323,33 @@ textarea {
 	   height: 400px;
 	   background-color: grey;
 	   margin-top: 50px;
+	   margin-bottom: 10px;
 	   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
  }
 
- .mapBorder {
+.mapBorder {
 		box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
+
+.mapBorder h2 {
+	margin-bottom: 1px;
+
+}
+
+.mapBorder h3 {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-weight: normal;
+}
+
+.mapBorder p {
+	margin-top: 0;
+	text-transform: none;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
 
 /*End Google Map*/
 
@@ -345,6 +377,7 @@ textarea {
 	width: 60%;
 	text-align: center;
 	margin: 20px auto;
+	margin-bottom: 10px;
 	font-size: 1.2em;
 	text-transform: none;
 }
@@ -354,12 +387,13 @@ textarea {
 }
 
 .staff h2 {
-	margin-top: 15px;
-	margin-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 40px;
 }
 
 .staffProfile {
 	padding: 10px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 	border: 3px solid rgba(201, 230, 232, .9);;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -418,10 +452,11 @@ textarea {
 /*footer*/
 
 .footer {
+	background-image: url("../img/stripes.jpg");
 	width:100%; 
 	float:left; 
-	background: rgb(178,147,18);
-	margin-bottom: 0;
+/*	background: rgb(178,147,18);
+*/	margin-bottom: 0;
 	background-color: rgba(201, 230, 232, .5);
 }
 
@@ -442,13 +477,15 @@ textarea {
 }
 
 .footerlinks {
-	padding-top: 20px;
+	border: 1px solid red;
+	text-align: center;
+	/*padding: 20px;*/
+	margin: 20px;
 }
 
 .footerlinks li {
 	color: white;
 	font-size: 20px;
-	padding-left: 35px;
 	list-style: none;
 }
 
