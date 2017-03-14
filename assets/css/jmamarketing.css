@@ -402,10 +402,18 @@ textarea {
 }
 
 .staffProfile {
-	padding: 10px;
+	/*background-image: url("../img/wood2.png");
+	background-position: center center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    width: 100%;
+	padding: 5px;
 	margin-top: 20px;
 	margin-bottom: 30px;
-	border: 3px solid rgba(201, 230, 232, .9);;
+	border: 3px solid rgba(201, 230, 232, .9);
+	border-bottom: 30px solid rgba(201, 230, 232, .9);
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -479,31 +487,64 @@ textarea {
 
 }
 
-.pearly {
+.copyright {
 	margin: 0;
-	padding: 5px;
+	padding: 10px;
+	padding-right: 50px;
 	text-align: center;
 	width: 100%;
 	background: rgba(201, 230, 232, 1);
-	font-size: 12px;
+	font-size: 14px;
 	text-transform: none;
+	font-family: Courier New;
 }
 
+.copyright span {
+	font-family: OCR A Std;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	background: rgba(201, 230, 232, 1);
+	width: 100%;
+	text-align: center;
+}
+
+.copyright a {
+	text-decoration: none;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+
+
 .footerlinks {
-/*	border: 1px solid red;
-*/	text-align: center;
-	/*padding: 20px;*/
 	margin: 20px;
 }
 
 .footerlinks li {
+	text-align: center;
 	color: white;
-	font-size: 20px;
+	font-size: 1.5em;
 	list-style: none;
 }
 
 .statement {
-	padding: 20px;
+	padding: 30px;
+	padding-left: 50px;
 }
 
 	/* footer social icons */
@@ -624,7 +665,7 @@ textarea {
 
 .thanks {
 	border: 4px solid rgba(201, 230, 232, .5);
-	margin-top: 250px;
+	margin-top: 150px;
 	width: 75%;
 	padding-bottom: 10px;
 	text-align: center;

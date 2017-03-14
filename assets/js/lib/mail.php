@@ -1,8 +1,10 @@
 <?php
 
-if(isset($_POST['title']) && !empty($_POST['title'])) {
-	die();
-} else {
+// Alternative reCaptcha validator 
+
+// if(isset($_POST['title']) && !empty($_POST['title'])) {
+// 	die();
+// } else {
 
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -16,12 +18,14 @@ $formcontent = "You have received a new message via JMA Marketing.\n\n"."Here ar
 $recipient = "ksamualtolch@gmail.com";
 $subject = "A New Message From JMA.COM";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-header("Location: ../../../thankyou.html");
 
+
+
+if(empty($_POST['title'])){
+	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+	header("Location: ../../../thankyou.html");
+} else {
+	header("Location: http://gph.is/1sEWa21");
 }
 
 ?>
-
-<!-- echo "Thank You!"; -->
-<!-- " From: $name \n Message: $message"; -->
