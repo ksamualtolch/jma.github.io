@@ -277,8 +277,18 @@ nav .page-scroll  {
 .slidshowcontainer {
 	width: max;
 	margin-top: 20px;
+	max-height: 80%;
 }
 
+.rslides img {
+	max-width: 100%;
+	height: auto;
+}
+
+.rslides {
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*Slideshow*/
 
 /*Contact Form*/
@@ -409,11 +419,12 @@ textarea {
     -o-background-size: cover;
     background-size: cover;*/
     width: 100%;
+    height: 750px;
 	padding: 5px;
 	margin-top: 20px;
 	margin-bottom: 30px;
 	border: 3px solid rgba(201, 230, 232, .9);
-	border-bottom: 30px solid rgba(201, 230, 232, .9);
+	
 	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -464,11 +475,80 @@ textarea {
 }
 
 .profile-description {
-	padding: 5px 20px;
+	padding: 5px 50px;
 	font-size: 12px;
 	text-transform: none;
 }
 /* End About */
+
+
+/* Lines */
+.indoorFurniture, .outdoorFurniture, .topOfTable, .chefware, .hospitalityConvention {
+	padding: 40px;
+	border: 3px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lines {
+	padding-bottom: 200px;
+	padding-top: 100px;
+
+}
+
+.logoProfile {
+	width: 100%;
+/*	padding: 15px;
+*/	margin-top: 20px;
+	margin-bottom: 30px;
+	height: auto;
+	border: 5px solid rgba(201, 230, 232, .9);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}*/
+
+a:visited {
+	text-decoration: none;
+}
+
+.ourlineslogo {
+	float: none;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 15px;
+	max-height: 300px;
+
+}
+
+.helper {
+	margin-top: 30px;
+}
+
+.logoDescription p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: justify-all;
+	color: white;
+	font-size: 1.2em;
+	text-transform: none;
+	padding: 6px;
+	margin: 4px;
+}
+
+.logoDescription {
+	background: rgba(201, 230, 232, .9);
+}
+
+
+#indoor, #outdoor, #table, #chef, #hospitality {
+	padding-top: 80px;
+}
+
 
 /*footer*/
 
@@ -564,8 +644,7 @@ textarea {
 	.social-network a.icoFacebook {
 		background-color:#3B5998;
 	}
-
-	.social-network a.icoGoogle {
+ 	.social-network a.icoGoogle {
 		background-color:#BD3518;
 	}
 
